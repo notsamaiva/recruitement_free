@@ -1,0 +1,120 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px; /* Ajout du décalage de 30px */
+}
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    padding-left: 40px; /* Ajout de padding à gauche pour décaler les colonnes */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #65bfbd;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.footer-language-currency {
+    display: flex;
+    align-items: center;
+}
+
+.footer-language, .footer-currency {
+    margin-left: 20px;
+}
+
+.footer-language i, .footer-currency i {
+    margin-right: 5px;
+}
+
+/* Social Icons styles */
+.social-icons {
+    list-style: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.social-icons li {
+    margin-bottom: 10px; /* Space between items */
+}
+
+.social-icons li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons li a:hover {
+    color: #65bfbd; /* Change color on hover */
+}
+
+.social-icons li a i {
+    margin-right: 8px; /* Space between icon and text */
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    margin-top: 20px; /* Ajout d'un décalage de 40 pixels en haut */
+    padding-left: 60px; /* Si vous souhaitez décaler vers la droite */
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-right: 100px; /* Espace entre le logo et le copyright */
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-right: 1px; /* Espace entre le copyright et la langue */
+}

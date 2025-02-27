@@ -1,0 +1,21 @@
+.main-content {
+    padding-left: 20px; /* Décalage à gauche */
+    padding-right: 20px; /* Décalage à droite */
+}
+.menu {
+    width: 200px;
+}
+
+.menuItem {
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 0.7rem;
+}
+
+.menuDescription {
+    padding-left: 16px;
+    font-family: 'Poppins';
+    font-size: 0.7rem;
+    word-wrap: break-word;
+    width: 180px;
+}

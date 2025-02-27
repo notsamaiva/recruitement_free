@@ -1,0 +1,127 @@
+.freelancers-list {
+    padding: 20px;
+  }
+  
+
+  .freelancers-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .freelancer-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .freelancer-header {
+    display: flex;
+    align-items: center; /* Aligne l'image et le texte sur la même ligne */
+  }
+  
+  .freelancer-image {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: 50px; /* Gardez le même aspect pour le rond */
+    border-radius: 50%; /* Pour rendre l'image ronde */
+    object-fit: cover; /* Pour s'assurer que l'image remplit bien le cercle */
+    margin-right: 15px; /* Espace entre l'image et le texte */
+    border: 2px solid #ccc; /* Ajoute une bordure pour le style (facultatif) */
+  }
+  
+  .freelancer-info {
+    display: flex;
+    flex-direction: column; /* Aligne le texte verticalement */
+  }
+  
+  .freelancer-info h3 {
+    margin: 0; /* Supprime les marges par défaut */
+  }
+  
+  .rating {
+    color: #ff9800; /* Couleur de l'étoile */
+    margin-right: 10px; /* Espace entre la note et la profession */
+  }
+  
+  .profession {
+    margin-left: 5px; /* Espace à gauche de la profession */
+  }
+  
+  .location, .languages, .services, .price {
+    margin-top: 5px;
+  }
+  .location {
+    margin-top: 25px; /* Ajustez la valeur selon vos besoins */
+    display: flex; /* Pour aligner l'icône et le texte */
+    align-items: center; /* Pour centrer l'icône et le texte verticalement */
+  }
+  .experiences {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espace entre les boutons */
+    margin-top: 10px;
+  }
+  
+  .experience-badge {
+    padding: 5px 15px;
+    background-color: #f5f7fa;
+    border-radius: 20px; /* Arrondi des badges */
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Effet d'ombre */
+  }
+  /* Ajoutez ceci dans votre fichier FreelancersList.css */
+.custom-hr {
+    border: none;           /* Enlève la bordure par défaut */
+    border-top: 1px solid #ccc; /* Crée une bordure fine sur le haut */
+    margin: 15px 0;         /* Ajoute de l'espace au-dessus et en-dessous */
+  }
+  /* Ajoutez ceci dans votre fichier FreelancersList.css */
+
+/* Conteneur pour les services et le prix */
+.services-price {
+    display: flex;
+    justify-content: space-between; /* Espace entre les services et le prix */
+    align-items: center;            /* Centrer verticalement les éléments */
+    margin-top: 10px;               /* Espace au-dessus de cette section */
+  }
+  
+  /* Optionnel : personnalisation supplémentaire pour le prix en gras */
+  .price {
+    font-weight: bold;
+    color: #333;                    /* Couleur optionnelle */
+  }
+/* Style pour le lien Explorer All Freelancers */
+.explore-link {
+    margin-top: 20px; /* Ajoutez un peu d'espace au-dessus */
+    text-align: left; /* Alignez le lien à gauche */
+  }
+  
+  .explore-link a {
+    font-size: 18px;
+    text-decoration: none; /* Supprime la décoration de texte par défaut */
+    color: #000; /* Couleur du texte */
+    border-bottom: 1px solid #000; /* Crée la ligne sous le texte */
+    padding-bottom: 3px; /* Ajoutez un peu de padding sous le texte pour la ligne */
+    transition: color 0.3s ease; /* Animation pour changer la couleur */
+  }
+  
+  .explore-link a:hover {
+    color: #004ba6; /* Couleur de survol */
+  }
+  .freelancers-list {
+    padding: 40px; /* Ajoute un décalage de 20px autour de tout le contenu */
+  }
+  
+  .freelancers-card {
+    margin: 20px; /* Ajoute un décalage entre chaque carte si ce n'est pas déjà fait */
+  }
+  
+ 
+  
+
+  

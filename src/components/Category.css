@@ -1,0 +1,79 @@
+.categories-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.categories-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Réduit l'espace entre les cartes (anciennement 20px) */
+}
+
+.category-card {
+    position: relative; /* Nécessaire pour le positionnement absolu du contenu */
+    width: 200px; /* Largeur de chaque carte */
+    height: 250px; /* Hauteur de chaque carte */
+    overflow: hidden; /* Pour masquer le débordement */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-decoration: none; /* Supprime la sous-ligne du lien */
+    transition: transform 0.2s; /* Ajoute une animation pour le survol */
+}
+
+.category-card:hover {
+    transform: scale(1.05); /* Légère augmentation de la taille au survol */
+}
+
+.category-background {
+    background-image: url('../images/categorie.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* Remplit la div */
+    background-position: center; /* Centre l'image */
+    height: 100%; /* Prend toute la hauteur de la carte */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Positionne le contenu vers le haut */
+    
+    color: white; /* Couleur du texte */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Ombre légère pour le texte */
+    padding: 30px; /* Réduit l'espacement interne (anciennement 10px) */
+}
+
+.category-name {
+    margin: 5px 0 0 0; /* Réduit la marge supérieure (anciennement 10px) */
+    font-size: 18px; /* Taille de la police */
+}
+
+.category-services {
+    margin: 2px 0 0 0; /* Réduit la marge supérieure (anciennement 5px) */
+    font-size: 14px; /* Taille de la police */
+    color: rgba(255, 255, 255, 0.9); /* Couleur grise pour le nombre de services */
+}
+
+
+.categories-container {
+    text-align: left; /* Aligne le texte à gauche */
+    margin: 20px 0;
+    padding-left: 40px; /* Décalage de 40px vers la droite */
+}
+
+.title-container {
+    display: flex; /* Utilise flexbox */
+    justify-content: space-between; /* Espace entre le titre et le lien */
+    align-items: center; /* Aligne verticalement le contenu */
+}
+
+/* Autres styles existants */
+.categories-list {
+    display: flex;
+ 
+    flex-wrap: wrap;
+    gap: 10px; /* Réduit l'espace entre les cartes */
+     padding-left: 40px; /* Décalage de 40px pour les catégories */
+}
+
+/* ... autres styles ... */
+
+.explore-link {
+    margin-top: 15px; /* Réduit l'espacement au-dessus du lien */
+}
